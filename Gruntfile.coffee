@@ -13,16 +13,6 @@ module.exports = (grunt) ->
 
   grunt.initConfig
 
-    coffee:
-      dist:
-        files: [{
-          expand: yes
-          cwd: 'src/'
-          src: [ '**/*.coffee' ]
-          dest: 'lib/'
-          ext: '.js'
-        }]
-
     coffeelint:
       options:
         max_line_length:
@@ -40,6 +30,16 @@ module.exports = (grunt) ->
           expand: yes
           cwd: 'src/'
           src: [ '**/*.coffee' ]
+        }]
+
+    coffee:
+      dist:
+        files: [{
+          expand: yes
+          cwd: 'src/'
+          src: [ '**/*.coffee' ]
+          dest: 'lib/'
+          ext: '.js'
         }]
 
     simplemocha:
