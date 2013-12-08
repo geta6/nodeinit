@@ -1,5 +1,7 @@
 # nodeinit
 
+![](https://travis-ci.org/geta6/nodeinit.png?branch=master)
+
 node_moduleを開発し始めるためのベース
 
 # usage
