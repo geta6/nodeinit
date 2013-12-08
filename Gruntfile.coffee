@@ -56,4 +56,4 @@ module.exports = (grunt) ->
         interrupt: yes
       dist:
         files: [ 'src/**/*.coffee' ]
-        tasks: [ 'coffeelint', 'simplemocha', 'coffee' ]
+        tasks: [ 'test' ]
