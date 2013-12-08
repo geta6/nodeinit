@@ -1,17 +1,17 @@
 'use strict'
 
 module.exports = (grunt) ->
-  
+
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-coffeelint'
   grunt.loadNpmTasks 'grunt-simple-mocha'
   grunt.loadNpmTasks 'grunt-notify'
-  
-  grunt.registerTask 'default', [ 'coffeelint', 'simplemocha', 'coffee' ]
-  
+
+  grunt.registerTask 'default', [ 'coffeelint', 'simplemocha', 'coffee', 'watch' ]
+
   grunt.initConfig
-   
+
     coffee:
       dist:
         files: [{
