@@ -1,8 +1,11 @@
 process.env.NODE_ENV = 'test'
 
+path = require 'path'
 assert = require 'assert'
 
 describe 'test', ->
 
-  it 'should be 2', ->
-    return assert.equal 2, 1 + 1
+  script = require path.resolve()
+
+  it 'should be hoge', ->
+    return assert.equal 'hoge', script()

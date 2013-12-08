@@ -4,9 +4,9 @@
   "private": true,
   "description": "",
   "bin": "",
-  "main": "",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "grunt simplemocha"
+    "test": "grunt test"
   },
   "author": "",
   "license": "MIT",
