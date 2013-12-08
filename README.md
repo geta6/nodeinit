@@ -15,7 +15,7 @@ node_moduleを開発し始めるためのベース
 # tasks
 
 * coffeelint
+* build coffee (`src` to `lib`, recursive)
 * mocha test (`tests/test.coffee`)
-* build coffee (`src` to `lib`)
 * failure notification
 
