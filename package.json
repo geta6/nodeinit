@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "grunt simplemocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "grunt": "*",
+    "grunt-simple-mocha": "*",
+    "grunt-notify": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-coffeelint": "git+https://github.com/geta6/grunt-coffeelint",
+    "grunt-contrib-watch": "git+https://github.com/gruntjs/grunt-contrib-watch"
+  }
+}
