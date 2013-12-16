@@ -10,7 +10,10 @@
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
+    "coffee-errors": "*",
+    "coffee-script": "*",
     "mocha": "*",
     "grunt": "*",
     "grunt-simple-mocha": "*",
@@ -18,7 +21,5 @@
     "grunt-contrib-coffee": "*",
     "grunt-coffeelint": "git+https://github.com/geta6/grunt-coffeelint",
     "grunt-contrib-watch": "git+https://github.com/gruntjs/grunt-contrib-watch"
-  },
-  "dependencies": {
   }
 }
