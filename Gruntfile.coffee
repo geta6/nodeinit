@@ -2,6 +2,8 @@
 
 module.exports = (grunt) ->
 
+  require 'coffee-errors'
+
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-coffeelint'
@@ -9,7 +11,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-notify'
 
   grunt.registerTask 'test',    [ 'coffeelint', 'coffee', 'simplemocha' ]
-  grunt.registerTask 'default', [ 'coffeelint', 'coffee', 'simplemocha', 'watch' ]
+  grunt.registerTask 'default', [ 'test', 'watch' ]
 
   grunt.initConfig
 

@@ -1,6 +1,5 @@
 process.env.NODE_ENV = 'test'
 
-require 'coffee-errors'
 path = require 'path'
 assert = require 'assert'
 
