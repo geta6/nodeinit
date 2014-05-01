@@ -8,8 +8,8 @@ node_moduleを開発し始めるためのベース
 
     $ git clone https://github.com/geta6/nodeinit
     $ cd nodeinit
-    $ npm i
     $ npm i -g grunt-cli
+    $ npm i
     $ grunt
 
 # tasks
